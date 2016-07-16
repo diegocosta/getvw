@@ -1,8 +1,8 @@
 {
   "name": "getvw",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A Node.js command line tool to convert px in vw unit based on device viewport",
-  "main": "index.js",
+  "main": "getvw.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/diegoscosta/getvw#readme",
   "bin": {
-    "getvw": "./index.js"
+    "getvw": "./cli.js"
   },
   "dependencies": {
     "minimist": "^1.2.0"

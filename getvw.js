@@ -1,3 +1,4 @@
-module.exports = function(viewport, num){
-	return (num / (viewport * 0.01)).toFixed(2);
+module.exports = (size, viewport, inverse = false) => {
+	let context = viewport * 0.01;
+	return inverse ? (size * context) : (size / context);
 };
