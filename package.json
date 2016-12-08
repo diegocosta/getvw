@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diegoscosta/getvw.git"
+    "url": "git+https://github.com/diegocosta/getvw.git"
   },
   "keywords": [
     "vw",
@@ -17,12 +17,12 @@
     "command",
     "line"
   ],
-  "author": "Diego Costa (https://github.com/diegoscosta)",
+  "author": "Diego Costa (https://github.com/diegocosta)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/diegoscosta/getvw/issues"
+    "url": "https://github.com/diegocosta/getvw/issues"
   },
-  "homepage": "https://github.com/diegoscosta/getvw#readme",
+  "homepage": "https://github.com/diegocosta/getvw#readme",
   "bin": {
     "getvw": "./cli.js"
   },
